@@ -1,0 +1,83 @@
+*{
+	font-family:Arial;
+	
+}
+header{
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+}
+h1{
+	font-family:Arial;
+    color:#252525;
+}
+#first{
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+}
+
+input{
+	 border: 1px solid #CB4335;
+	border-radius: 4px;
+	height: 50%;
+	padding:10px;
+}
+#input{
+	width: 100%;
+}
+
+#add{
+	padding:10px;
+	background-color:#FDEDEC ;
+	color:#E74C3C ;
+	font-weight: bold;
+	margin-left:20px;
+	border-radius: 12px;
+	width: 13%;
+	cursor: pointer;
+	border: 1px solid #CB4335;
+	
+}
+#obrisi{
+	margin-left:40%;
+	background: none;
+	color:#CB4335 ;
+	border: none;
+	padding: 10px;
+	font: Arial;
+	cursor: pointer;
+	/*outline: inherit;*/
+	text-decoration:underline;
+	position:absolute;
+	right:25%;
+}
+#second{
+	margin: auto;
+	width: 50%;
+	height:100%;
+	
+	
+}
+ .container {
+        display: grid;
+        grid-template-columns: 50% 50%; 
+        grid-column-gap: 10px;
+		grid-row-gap: 25px;
+      }
+      
+ .container div {
+       
+	  height:50%;
+	  font-weight:bold;
+		border: 2px solid transparent;
+		border-radius: 11px;
+		-webkit-box-shadow: 3px 8px 15px 1px rgba(0,0,0,0.21); 
+		box-shadow: 3px 8px 15px 1px rgba(0,0,0,0.11);
+		text-align:center;
+		padding:5px;
+		margin-bottom:20px;
+		margin-top: 20px;
+       
+      }
+ 
